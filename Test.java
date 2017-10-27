@@ -1,5 +1,11 @@
+import java.util.*;
+
 public class Test{
   public static void main(String[] args) {
-   System.out.println("Hello World!!");
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter Your name");
+    String name=sc.next();
+    sc.close()
+   System.out.println("Welocme to Jenkins"+name);
   }
 }
