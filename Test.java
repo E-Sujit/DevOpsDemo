@@ -5,7 +5,7 @@ public class Test{
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter Your name");
     String name=sc.next();
-    sc.close()
+    sc.close();
    System.out.println("Welocme to Jenkins"+name);
   }
 }
